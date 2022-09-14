@@ -1,40 +1,16 @@
-Introduction
----
-Thanks for taking the time to complete this frontend technical assessment. We will be focusing on software quality (scalability, readability, maintainability, etc.) and your eye for detail. You may include any libraries, but Vue.js is preferred and jQuery is not recommended. Along with following best practices, bonus points for following our [coding guidelines](https://github.com/mindarc/frontend-assessment/wiki/Coding-guidelines). 
+Explanation
+-------------
+I've added 2 buttons for Exercise 1 & 2 and one extra for bonus answer :) - https://t.gyazo.com/teams/mindarc/3d034304f03d81394f2ae064739b30e4.png
+
 
 Exercise 1
----
-Build a responsive page based on the designs.
-
-##### Requirements
-1. Match the designs exactly.
-2. Needs to be responsive.
-
-##### Designs
-* exercise1-desktop.png
-* exercise1-mobile.png
-
-##### Assets
-* Desktop banner - https://via.placeholder.com/1920x650
-* Mobile banner - https://via.placeholder.com/600x600
-* Content images - https://via.placeholder.com/400x300
+-------------
+1. Added HTML, CSS & JS files as per the requirement - https://t.gyazo.com/teams/mindarc/f2a891ccf4ac8dd4789073844b2c9006.png
 
 Exercise 2
----
-Read the `data.json` file and display the data as tabs on desktop and an accordion on mobile.
+------------
+1. I've used jQuery plugin that provides responsive tab functionality. The tabs transform to an accordion when it reaches a CSS breakpoint. - https://t.gyazo.com/teams/mindarc/bd6c60d4f80d95975f374772a36e25aa.png
 
-##### Requirements
-1. Display data in tabs on desktop.
-2. Display data in an accordion on mobile.
-3. Only 1 accordion/tab should be open at a time.
-4. Open the first accordion/tab on load.
-5. If the open accordion is selected, close it.
-
-###### Bonus points
-* Improve the user experience with meaningful animations/transitions.
-* Design and styling.
-* Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
-
-Submission
----
-We recommend submitting your completed assessment as a forked repository. Please replace README content with instructions and relevant documentation.
+Bonus Answer
+---------------
+1. Clicking on Button will show answer in alert box. - https://t.gyazo.com/teams/mindarc/ecdcad08b15d6fc1f711cffdb7061adf.png
